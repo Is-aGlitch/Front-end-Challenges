@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tracker{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    z-index: 9999;
+    pointer-events: none;
+    transition: all .15s;
+}
+.tracker img{
+    position: absolute;
+    height: 150px;
+    width: auto;
+
+}
